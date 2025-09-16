@@ -1,0 +1,75 @@
+{
+  "category": "load-balancers",
+  "created_date": "2025-09-15T22:48:57.726334",
+  "default_ports": [
+    1,
+    53,
+    80,
+    443,
+    514,
+    3000,
+    3001,
+    3002,
+    3003,
+    3004,
+    3306,
+    4096,
+    5432,
+    6379,
+    8080,
+    8404,
+    8405,
+    9000,
+    9101
+  ],
+  "dependencies": [
+    "openssl",
+    "pcre",
+    "systemd"
+  ],
+  "description": "High-performance TCP/HTTP load balancer and reverse proxy for distributing traffic across multiple backend servers. Industry standard for load balancing with enterprise-grade security and reliability.",
+  "difficulty_level": "intermediate",
+  "documentation_url": "https://howtomgr.github.io/load-balancers/haproxy",
+  "estimated_setup_time": "15-30 minutes",
+  "features": [
+    "multi-os-support",
+    "comprehensive-documentation",
+    "security-hardening",
+    "performance-optimization",
+    "backup-restore-procedures",
+    "troubleshooting-guides"
+  ],
+  "guide_path": "/load-balancers/haproxy",
+  "installation_methods": [
+    "native-packages",
+    "source-compilation"
+  ],
+  "last_updated": "2025-09-15T22:48:57.726358",
+  "license": "Open Source",
+  "maintenance_status": "active",
+  "name": "haproxy",
+  "repository_url": "https://github.com/howtomgr/haproxy",
+  "spec_version": "2.0",
+  "subcategory": "load-balancers",
+  "supported_os": [
+    "rhel",
+    "centos",
+    "rocky",
+    "almalinux",
+    "arch",
+    "alpine"
+  ],
+  "tags": [
+    "load-balancers",
+    "containerization",
+    "observability",
+    "data-storage",
+    "web-services",
+    "networking",
+    "security",
+    "data-protection"
+  ],
+  "title": "HAProxy Installation Guide",
+  "version": "1.0.0",
+  "website_url": "https://howtomgr.github.io/load-balancers/haproxy"
+}
